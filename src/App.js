@@ -40,6 +40,7 @@ class TodoApp extends Component {
       checked: arrCheck
     })
   }
+  
   deleteSelected(arrIndex){
     let promise = new Promise((res, rej)=>{
       let array = this.state.listItem
